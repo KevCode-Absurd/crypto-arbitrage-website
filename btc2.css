@@ -1,0 +1,31 @@
+body {
+  background: linear-gradient(to left, #7f65ff, #20bdff, #a5fecb);
+  font-family: "DM Sans", sans-serif;
+}
+
+.tradingview-widget-container {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.individual {
+  display: flex;
+  margin-top: 15%;
+}
+
+.btn-primary {
+  background-color: #375bfc;
+  padding: 10px 20px;
+  border: 2px solid white;
+  border-radius: 6px;
+  color: ivory;
+  font-weight: bold;
+  cursor: pointer;
+  font-family: "Open Sans", sans-serif;
+}
+
+.btn-primary:hover {
+  background-color: #23395b;
+  transition: ease-in-out 0.4s;
+}

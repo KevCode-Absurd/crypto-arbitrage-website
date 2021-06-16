@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="btc2.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Open+Sans:wght@800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="Cryptocurrency.png" type="image/gif" sizes="32x32" />
+    <title>ETH Arbitrage Chart</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="container-2">
+        <div class="tradingview-widget-container">
+          <h1>ETH</h1>
+          <h2>ETH Prices across Exchanges</h2>
+          <!-- TradingView Widget BEGIN -->
+          <div class="tradingview-widget-container">
+            <div class="tradingview-widget-container__widget"></div>
+            <script
+              type="text/javascript"
+              src="https://s3.tradingview.com/external-embedding/embed-widget-market-quotes.js"
+              async
+            >
+                {
+                "width": "900",
+                "height": "600",
+                "symbolsGroups": [
+                  {
+                    "name": "Indices",
+                    "originalName": "Indices",
+                    "symbols": [
+                      {
+                        "name": "KRAKEN:ETHUSD",
+                        "displayName": "KRAKEN:ETHUSD"
+                      },
+                      {
+                        "name": "BITBAY:ETHBTC",
+                        "displayName": "BITBAY:ETHBTC"
+                      },
+                      {
+                        "name": "KRAKEN:ETHUSDT",
+                        "displayName": "KRAKEN:ETHUSDT"
+                      },
+                      {
+                        "name": "BITSTAMP:ETHUSD",
+                        "displayName": "BITSTAMP:ETHUSD"
+                      },
+                      {
+                        "name": "BINANCE:ETHUSDT",
+                        "displayName": "BINANCE:ETHUSDT"
+                      },
+                      {
+                        "name": "CURRENCYCOM:ETHUSD",
+                        "displayName": "CURRENCYCOM:ETHUSD"
+                      },
+                      {
+                        "name": "FTX:ETHUSD",
+                        "displayName": "FTX:ETHUSD"
+                      },
+                      {
+                        "name": "COINBASE:ETHUSD",
+                        "displayName": "COINBASE:ETHUSD"
+                      },
+                      {
+                        "name": "GEMINI:ETHUSD",
+                        "displayName": "GEMINI:ETHUSD"
+                      },
+                      {
+                        "name": "BINANCEUS:ETHUSD",
+                        "displayName": "BINANCEUS:ETHUSD"
+                      }
+                    ]
+                  }
+                ],
+                "showSymbolLogo": true,
+                "colorTheme": "dark",
+                "isTransparent": false,
+                "locale": "in"
+              }
+            </script>
+            <br /><br />
+            <button
+              onclick="window.location='D:/Desktop/Experimentation/binance/binance-final/Crypto Arbitrage/btc.html'"
+              class="btn-primary"
+            >
+              Back to Full Chart
+            </button>
+            <br /><br /><br />
+          </div>
+          <!-- TradingView Widget END -->
+        </div>
+      </div>
+    </div>
+    <br /><br /><br />br
+  </body>
+</html>

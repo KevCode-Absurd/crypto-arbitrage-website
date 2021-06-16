@@ -1,0 +1,46 @@
+body {
+  background: linear-gradient(to left, #7f65ff, #20bdff, #a5fecb);
+  font-family: "DM Sans", sans-serif;
+}
+
+.container {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ol {
+  padding-left: 12px;
+}
+
+@media only screen and (max-width: 900px) {
+  .container {
+    width: 90%;
+  }
+}
+img {
+  width: 80%;
+  margin: 5%;
+  margin-left: 0;
+  border-radius: 20px;
+}
+
+.btn-primary {
+  background-color: #375bfc;
+  padding: 10px 20px;
+  border: 2px solid white;
+  border-radius: 6px;
+  color: ivory;
+  font-weight: bold;
+  cursor: pointer;
+  font-family: "Open Sans", sans-serif;
+}
+
+.btn-primary:hover {
+  background-color: #23395b;
+  transition: ease-in-out 0.4s;
+}
+
+.explain {
+  text-align: left;
+}

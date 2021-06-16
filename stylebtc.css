@@ -1,0 +1,57 @@
+body {
+  background: linear-gradient(to left, #7f65ff, #20bdff, #a5fecb);
+  font-family: "DM Sans", sans-serif;
+}
+
+.container {
+  width: 70%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ticker-price1 {
+  text-align: center;
+}
+
+.container-2 {
+  text-align: left;
+  margin-top: 5%;
+  width: 70%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn-primary {
+  background-color: #375bfc;
+  padding: 10px 20px;
+  border: 2px solid white;
+  border-radius: 6px;
+  color: ivory;
+  font-weight: bold;
+  cursor: pointer;
+  font-family: "Open Sans", sans-serif;
+}
+
+.btn-primary:hover {
+  background-color: #23395b;
+  transition: ease-in-out 0.4s;
+}
+
+.btn-secondary {
+  background-color: ivory;
+  padding: 10px 20px;
+  border: 2px solid #375bfc;
+  border-radius: 6px;
+  color: #375bfc;
+  font-weight: bold;
+  cursor: pointer;
+  font-family: "Open Sans", sans-serif;
+}
+
+.btn-secondary:hover {
+  background-color: #5c79fc;
+  transition: ease-in-out 0.4s;
+  color: ivory;
+}

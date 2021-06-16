@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="btc2.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Open+Sans:wght@800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="icon"
+      href="Cryptocurrency-1.png"
+      type="image/gif"
+      sizes="32x32"
+    />
+    <title>BTC Arbitrage Chart</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="container-2">
+        <div class="tradingview-widget-container">
+          <h1>BTC</h1>
+          <h2>BTC Prices across Exchanges</h2>
+          <!-- TradingView Widget BEGIN -->
+          <div class="tradingview-widget-container">
+            <div class="tradingview-widget-container__widget"></div>
+            <script
+              type="text/javascript"
+              src="https://s3.tradingview.com/external-embedding/embed-widget-market-quotes.js"
+              async
+            >
+                {
+                "width": "900",
+                "height": "600",
+                "symbolsGroups": [
+                  {
+                    "name": "Indices",
+                    "originalName": "Indices",
+                    "symbols": [
+                      {
+                        "name": "BITBAY:BTCUSDT",
+                        "displayName": "BITBAY: BTCUSDT "
+                      },
+                      {
+                        "name": "BINANCE:BTCUSDT",
+                        "displayName": "BINANCE: BTCUSDT "
+                      },
+                      {
+                        "name": "BITFINEX:BTCUSD",
+                        "displayName": "BITFINEX: BTCUSD "
+                      },
+                      {
+                        "name": "KUCOIN:BTCUSDT",
+                        "displayName": "KUCOIN: BTCUSDT "
+                      },
+                      {
+                        "name": "OKEX:BTCUSDT",
+                        "displayName": "OKEX: BTCUSDT "
+                      },
+                      {
+                        "name": "BINANCE:BTCUSDC",
+                        "displayName": "BINANCE: BTCUSDC "
+                      },
+                      {
+                        "name": "BINANCEUS:BTCUSD",
+                        "displayName": "BINANCEUS: BTCUSD "
+                      },
+                      {
+                        "name": "GEMINI:BTCUSD",
+                        "displayName": "GEMINI: BTCUSD "
+                      },
+                      {
+                        "name": "HUOBI:BTCUSDT",
+                        "displayName": "HUOBI: BTCUSDT "
+                      },
+                      {
+                        "name": "BITTREX:BTCUSD",
+                        "displayName": "BITTREX: BTCUSD "
+                      },
+                      {
+                        "name": "POLONIEX:BTCUSDT",
+                        "displayName": "POLONIEX: BTCUSDT "
+                      },
+                      {
+                        "name": "COINBASE:BTCUSDT",
+                        "displayName": "Coinbase: BTCUSDT "
+                      }
+                    ]
+                  }
+                ],
+                "showSymbolLogo": true,
+                "colorTheme": "dark",
+                "isTransparent": false,
+                "locale": "in",
+                "largeChartUrl": ""
+              }
+            </script>
+            <br /><br />
+            <button
+              onclick="window.location='D:/Desktop/Experimentation/binance/binance-final/Crypto Arbitrage/btc.html'"
+              class="btn-primary"
+            >
+              Back to Full Chart
+            </button>
+            <br /><br /><br />
+          </div>
+          <!-- TradingView Widget END -->
+        </div>
+      </div>
+    </div>
+    <br /><br /><br />br
+  </body>
+</html>
